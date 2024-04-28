@@ -116,7 +116,7 @@ footer{
 }
 .section-four{
     background-image: url("	https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/h3-background-img.jpg");
-    padding: 100px 0;
+    padding: 200px 0;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -134,4 +134,31 @@ footer{
 }
 .middle .inp-btn{
     margin-top: 15px;
+    display: flex;
+    width: 650px;
 }
+.inp-btn input{
+   width: 70%;
+   padding: 15px;
+}
+.inp-btn button{
+    width: 30%;
+    padding: 15px;
+    background-color: #f34f3f;
+    border: none;
+    color: white;
+ }
+ 
+ .fa-bag-shopping{
+    margin-right: 15px;
+ }
+ a{
+    text-decoration: none;
+    color:black ;
+ }
+ .card{
+    display: none;
+ }
+ .active{
+    display: flex;
+ }
