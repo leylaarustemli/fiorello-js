@@ -46,6 +46,8 @@ ul li i{
     justify-content: space-between;
     padding: 30px;
     margin-top: 20px;
+    flex-wrap: wrap;
+    
 }
 
 .contacts h3{
@@ -56,7 +58,10 @@ font-size: 14px;
 footer{
     background-color: #fefaf3;
     padding: 15px;
+ 
 }
+
+
 .contacts p{
     color:#8b8b8b ;
     font-size: 12px;
@@ -120,6 +125,7 @@ footer{
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
   
 }
 
@@ -162,3 +168,27 @@ footer{
  .active{
     display: flex;
  }
+ .fa-bars{
+    display: none;
+ }
+ 
+ @media only screen and (max-width:1050px){
+    .fa-bars{
+        display: block;
+    }
+    .right-header ul{
+        display: none;
+    }
+ }
+ @media only screen and (max-width:750px){
+    .section-nav1 ul{
+        flex-wrap: wrap;
+    }
+    .section-nav2{
+        display: none;
+    }
+    .middle .inp-btn{
+        max-width: 300px;
+    }
+ }
+ 
